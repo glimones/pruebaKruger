@@ -1,0 +1,20 @@
+#inicio
+
+#Prueba Kruger Info
+-Java version 17
+-swagger version 2.9.3
+-springboot 2.6.7
+
+Paso 1
+-instalar postgres 
+-levantar server 
+-Correr script en postgres ( path: /prueba/src/main/resources/static/bd/scriptSQLKruger.sql)
+
+Paso 2
+-clonar proyecto
+-Click derecho en el proyecto importado en pestaña Maven y luego en la opción Maven update
+-Click derecho en el menu en la opción project en la pestaña clean
+-Click derecho en run as opcion spring boot app 
+-En el explorador de google colocar la siguiente dirección http://localhost:8080/swagger-ui.html#/
+-Realizar las pruebas en el swagger para administrador y empleado
+
